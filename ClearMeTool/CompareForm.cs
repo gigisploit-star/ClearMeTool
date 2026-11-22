@@ -64,7 +64,7 @@ internal sealed class CompareForm : Form
         compare.Click += (_, _) => RunCompare();
         actions.Controls.Add(compare);
         actions.Controls.Add(new Label
-        {
+               {
             Text = ".bin  .rom  .fd  .rgn  .bio",
             AutoSize = true,
             Padding = new Padding(8, 6, 0, 0)
