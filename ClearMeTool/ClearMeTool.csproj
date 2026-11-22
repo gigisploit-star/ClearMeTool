@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ClearMeTool</RootNamespace>
+    <AssemblyName>ClearMeTool</AssemblyName>
+    <Version>1.0.0</Version>
+    <Authors>ClearMeTool</Authors>
+    <Product>Clear ME — keep BIOS identity</Product>
+    <Description>Replace only the Intel ME region of an SPI dump. The BIOS region (serial, UUID, DMI, NVRAM) is left byte-for-byte unchanged.</Description>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  </PropertyGroup>
+</Project>
